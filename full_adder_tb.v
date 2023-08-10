@@ -1,4 +1,5 @@
 `include "full_adder.v"
+// Full adder test bench
 module full_adder_tb;
     reg x, y , c_in;
     wire sum , carry;

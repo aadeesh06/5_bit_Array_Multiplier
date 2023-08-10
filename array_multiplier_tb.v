@@ -1,4 +1,5 @@
 `include "array_multiplier.v"
+// array multiplier test bench
 module array_multiplier_tb;
     reg [4:0] x, y;
     wire [9:0] product;

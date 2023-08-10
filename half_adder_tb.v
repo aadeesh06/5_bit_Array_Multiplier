@@ -1,4 +1,5 @@
 `include "half_adder.v"
+// Half adder test bench
 module half_adder_tb;
     reg x , y;
     wire sum , carry;
